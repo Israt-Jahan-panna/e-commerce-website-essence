@@ -37,13 +37,17 @@ const NavBar = () => {
         </div>
       </div>
       <div className=" flex flex-row gap-3 text-white">
-      <div>
-        <button className=""> <i className="fa-regular fa-user"></i> Sing In</button>
+        <div>
+          <button className="">
+            Sing In <i className="fa-regular fa-user"></i>{" "}
+          </button>
         </div>
         <div>
-        <button className=""><i className="fa-solid fa-cart-shopping"></i> Cart</button>
+          <button className="">
+            {" "}
+            Cart <i className="fa-solid fa-cart-shopping"></i>
+          </button>
         </div>
-        
       </div>
     </div>
   );
