@@ -141,9 +141,16 @@ const Banner = () => {
      
      </div>
      {/* card */}
-      <div className="col-span-2">
-        <h2 className="text-xl font-semibold">Featured Item</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className="col-span-1 lg:col-span-2 col  bg-white shadow-lg px-6 py-3 flex flex-col gap-6 w-[366px] h-[600px]">
+        <h2 className="text-base font-normal ">Good Afternoon, John Smith</h2>
+        <div className="w-[318px] h-[150px] text-center "><h1 className="text-xl font-semibold text-[#010E0E]">Flash Sale for You!</h1>
+        <h1 className="text-[#194E8A] text-8xl font-bold">40 <span className="text-xl">%off</span></h1>
+        <h2 className="text-sm font-normal">After 12 hr this offer will be end. <button className="text-[#194E8A] font-semibold">Get Now</button> </h2>
+        </div>
+        <div className="w-[318px] h-[257px]"><img src="https://i.ibb.co/Fm39fqb/image.png" alt="" /></div>
+        <button className="text-base font-bold bg-[#194E8A] text-center w-[336px] text-white px-24 py-3 mt-8">
+        Add to Cart
+            </button>
       </div>
     </div>
     </div>
