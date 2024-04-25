@@ -158,6 +158,46 @@ const Banner = () => {
           </button>
         </div>
       </div>
+      <div  className="m-4 lg:px-14">
+        <div  className="grid grid-cols-1 md:grid-cols-4 gap-10 justify-between">
+          <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
+            <div className="">
+              <a href=""><i className="fa-regular fa-circle-check text-yellow-300"></i></a>
+            </div><div>
+              
+          <h1 className="font-bold">Quick & Easy Store Pickup</h1>
+          <p>Get your order as little as 1hr</p>
+            </div>
+          </div>
+          <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
+            <div className="">
+              <a href=""><i className="fa-regular fa-circle-check text-yellow-300"></i></a>
+            </div><div>
+              
+          <h1 className="font-bold">Low Price Guarantee</h1>
+          <p>We won’t be beat on price</p>
+            </div>
+          </div>
+          <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
+            <div className="">
+              <a href=""><i className="fa-regular fa-circle-check text-yellow-300"></i></a>
+            </div><div>
+              
+          <h1 className="font-bold">Knowledgeable Advice</h1>
+          <p>Answer to your tech questions</p>
+            </div>
+          </div>
+          <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
+            <div className="">
+              <a href=""><i className="fa-regular fa-circle-check text-yellow-300"></i></a>
+            </div><div>
+              
+          <h1 className="font-bold">Lates & Greatest Tech</h1>
+          <p>Discover whats new & excitings</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
