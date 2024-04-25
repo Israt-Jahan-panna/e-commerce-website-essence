@@ -1,10 +1,17 @@
 import React from "react";
 
+import HomeCarousel from "./HomeCarousel";
+import BrandsCarousel from "./BrandsCarousel";
+
+
 const Banner = () => {
   return (
-    <div className="font-Inter flex justify-between items-center bg-gray-200 p-4 md:px-14 px-4">
-      <div className="flex  space-x-4 bg-white shadow-lg w-[236px] h-[600px] px-6 py-6">
-        <ul>
+   
+    <div className="font-Inter   bg-gray-200 p-4 md:px-14 px-4">
+       <div className=" grid grid-cols-1  lg:grid-cols-10 gap-4">
+       {/* categories card */}
+      <div className="md:col-span-1 lg:col-span-2 bg-white shadow-lg w-[238px] h-[600px] md:px-6 md:py-6 mx-auto justify-center p-6">
+      <ul>
           <li className="flex gap-1 font-bold text-base text-[#194E8A] mb-5">
             {" "}
             <img
@@ -32,7 +39,7 @@ const Banner = () => {
             />{" "}
             Music and Books
           </li>
-          {/*  */}
+          
           <li className="flex gap-1 font-normal text-base text-black mb-5">
             {" "}
             <img
@@ -125,19 +132,19 @@ const Banner = () => {
           </li>
         </ul>
       </div>
-      <div className="flex-1 mx-4">
-        <div
-          id="carousel"
-          className="carousel bg-white overflow-hidden rounded-lg shadow-md"
-        >
-          <div className="carousel-item">Item 1</div>
-          <div className="carousel-item">Item 2</div>
-        </div>
+      {/* carousel  */}
+     <div className="md:col-span-4 lg:col-span-6 mb-7 ">
+      <div className="lg:w-[886px] md:[600px]">
+      <HomeCarousel></HomeCarousel>
+      <BrandsCarousel></BrandsCarousel>
       </div>
-      <div className="card bg-white p-4">
+     
+     </div>
+      <div className="col-span-2">
         <h2 className="text-xl font-semibold">Featured Item</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
+    </div>
     </div>
   );
 };
