@@ -66,7 +66,7 @@ const BrandsCarousel = () => {
           <>
             <SwiperSlide>
               <div className="cursor-pointer ">
-                <img className="w-10 md:w-32 rounded-lg mx-auto md:rounded-[9000px]" src={data.img} alt="" />
+                <img className="w-10 md:w-32 rounded-full mx-auto" src={data.img} alt="" />
                 <h1 className="text-center text-[8px] md:text-sm md:mt-4">{data.title}</h1>
               </div>
             </SwiperSlide>
