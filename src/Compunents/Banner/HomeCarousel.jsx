@@ -16,7 +16,7 @@ import "swiper/css/scrollbar";
 
 const HomeCarousel = () => {
   return (
-    <div className=""> 
+    <div>
       <Swiper
         modules={[
           Navigation,
@@ -48,19 +48,18 @@ const HomeCarousel = () => {
         //   onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div>
-            <img
-              className="w-full md:w-[886px] h-[426px] object-cover "
-              src="https://i.ibb.co/wyCBxZ1/74de85cb793b32d9231081864ccefaee.png"
-              alt=""
-            />
+          <div className=" text-start w-[362px] h-[192px] absolute top-10 bottom-10 left-10 right-10">
+            <h1 className=" text-7xl font-bold text-[#194E8A]">
+              Kitchen Savings.
+            </h1>
+            <button className="text-sm bg-[#194E8A] text-white px-6 py-3 mt-8">
+              Buy Now (5% off)
+            </button>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div>
             <img
-              className="w-full md:w-[886px] h-[426px] object-cover "
-              src="https://i.ibb.co/wyCBxZ1/74de85cb793b32d9231081864ccefaee.pngg"
+              className="w-full md:w-[886px] h-[426px]"
+              src="https://i.ibb.co/GW458q8/cup.jpg"
               alt=""
             />
           </div>
@@ -92,15 +91,7 @@ const HomeCarousel = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <img
-              className="w-full md:w-[886px] h-[426px]"
-              src="https://i.ibb.co/GW458q8/cup.jpg"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div>
             <img

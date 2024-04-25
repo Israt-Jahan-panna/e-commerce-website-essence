@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="font-Inter   bg-gray-200 p-4 md:px-14 px-4">
        <div className=" grid grid-cols-1  lg:grid-cols-10 gap-4">
        {/* categories card */}
-      <div className="md:col-span-1 lg:col-span-2 bg-white shadow-lg w-[238px] h-[600px] md:px-6 md:py-6 mx-auto justify-center p-6">
+      <div className="col-span-1 lg:col-span-2 bg-white shadow-lg w-[238px] h-[600px] md:px-6 md:py-6 mx-auto justify-center p-6">
       <ul>
           <li className="flex gap-1 font-bold text-base text-[#194E8A] mb-5">
             {" "}
@@ -133,13 +133,14 @@ const Banner = () => {
         </ul>
       </div>
       {/* carousel  */}
-     <div className="md:col-span-4 lg:col-span-6 mb-7 ">
-      <div className="lg:w-[886px] md:[600px]">
+     <div className="col-span-3 md:col-span-4 lg:col-span-6 mb-7">
+      <div className=" lg:w-[886px] md:[600px]">
       <HomeCarousel></HomeCarousel>
       <BrandsCarousel></BrandsCarousel>
       </div>
      
      </div>
+     {/* card */}
       <div className="col-span-2">
         <h2 className="text-xl font-semibold">Featured Item</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
