@@ -10,6 +10,8 @@ import Apple from '../Apple/Apple';
 import ShopAllCategories from "../Shop All Categories/ShopAllCategories"
 import MostViewedItems from '../Most Viewed Items/MostViewedItems';
 import TopBrands from '../Top Brands/TopBrands';
+import WeeklyTopVendors from '../Weekly Top Vendors/WeeklyTopVendors';
+import DailyDiscover from '../Daily Discover/DailyDiscover';
 const Home = () => {
     
   
@@ -27,6 +29,8 @@ const Home = () => {
     <ShopAllCategories></ShopAllCategories>
     <MostViewedItems></MostViewedItems>
     <TopBrands></TopBrands>
+    <WeeklyTopVendors></WeeklyTopVendors>
+    <DailyDiscover></DailyDiscover>
       </div>
       <Footer></Footer>
       </div>
