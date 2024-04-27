@@ -4,6 +4,9 @@ import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import ShopByDepartment from "../Shop by Department/ShopByDepartment"
 import DealOfTheDay from '../Deal of The Day/DealOfTheDay';
+import OnSellingProducts from "../On Selling Products/OnSellingProducts";
+import OnSellingProductsAds from "../On Selling Products/OnSellingProductsAds";
+
 const Home = () => {
     
   
@@ -15,6 +18,9 @@ const Home = () => {
       <div className="lg:px-14">
       <ShopByDepartment></ShopByDepartment>
       <DealOfTheDay></DealOfTheDay>
+      <OnSellingProducts></OnSellingProducts>
+      <OnSellingProductsAds></OnSellingProductsAds>
+    
       </div>
       <Footer></Footer>
       </div>
