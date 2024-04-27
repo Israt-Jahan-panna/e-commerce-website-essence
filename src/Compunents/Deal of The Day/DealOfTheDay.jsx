@@ -2,8 +2,8 @@ const DealOfTheDay = () => {
   return (
     <div className="mx-auto">
       <div className="flex justify-between mt-14 mb-6">
-        <h1 className="text-[24px] font-bold">Deal of The Day</h1>
-        <h1 className="text-lg font-bold">See more items</h1>
+        <h1 className="text-base lg:text-6 font-bold">Deal of The Day</h1>
+        <h1 className=" text-base lg:text-lg font-bold">See more items</h1>
       </div>
 
 
@@ -14,11 +14,11 @@ const DealOfTheDay = () => {
           <img
             src="https://i.ibb.co/tqDzv6N/image.png"
             alt="Movie"
-            className="w-60 object-cover"
+            className="w-24 md:w-60 object-cover"
           />
 
-          <div className="pl-6 ">
-            <h2 className="text-lg font-bold">
+          <div className=" pl-2 lg:pl-6 ">
+            <h2 className="text-sm lg:text-lg font-bold">
               Wireless Bluetooth Headset Single Ear Earplugs Ultra...
             </h2>
 
@@ -68,7 +68,7 @@ const DealOfTheDay = () => {
             </h1>
 
             <div className="flex gap-2 mt-4 ">
-              <button className="py-2 px-6 bg-[#F7F8F8] w-full flex items-center gap-1 ">
+              <button className="py-2 lg:px-6 bg-[#F7F8F8] w-full flex items-center gap-1 ">
                 <span>
                   <svg
                     width={25}
@@ -123,7 +123,7 @@ const DealOfTheDay = () => {
                 </span>
                 Preview
               </button>
-              <button className="py-2 px-6 bg-[#F7F8F8] w-full flex items-center gap-1  ">
+              <button className="py-2 lg:px-6 bg-[#F7F8F8] w-full flex items-center gap-1  ">
                 <span>
                   <svg
                     width={20}
@@ -147,7 +147,7 @@ const DealOfTheDay = () => {
             </div>
 
             <div className="">
-              <button className="bg-[#194E8A] w-full text-white font-bold py-2 mt-4 flex items-center gap-5 justify-center">
+              <button className="bg-[#194E8A] w-full text-white font-bold py-2 mt-4 flex items-center gap-2 lg:gap-5 justify-center">
                 <span>
                   <svg
                     width={24}
@@ -190,11 +190,11 @@ const DealOfTheDay = () => {
           <img
             src="https://i.ibb.co/px9xYvC/image.png"
             alt="Movie"
-            className="w-60 object-cover"
+            className="md:w-60 w-24 object-cover"
           />
 
-          <div className="pl-6 ">
-            <h2 className="text-lg font-bold">
+          <div className="md:pl-6 ">
+            <h2 className="md:text-lg text-base font-bold">
               Wireless Bluetooth Headset Single Ear Earplugs Ultra...
             </h2>
 

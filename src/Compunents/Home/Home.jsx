@@ -6,7 +6,8 @@ import ShopByDepartment from "../Shop by Department/ShopByDepartment"
 import DealOfTheDay from '../Deal of The Day/DealOfTheDay';
 import OnSellingProducts from "../On Selling Products/OnSellingProducts";
 import OnSellingProductsAds from "../On Selling Products/OnSellingProductsAds";
-
+import Apple from '../Apple/Apple';
+import ShopAllCategories from "../Shop All Categories/ShopAllCategories"
 const Home = () => {
     
   
@@ -20,7 +21,8 @@ const Home = () => {
       <DealOfTheDay></DealOfTheDay>
       <OnSellingProducts></OnSellingProducts>
       <OnSellingProductsAds></OnSellingProductsAds>
-    
+      <Apple></Apple>
+    <ShopAllCategories></ShopAllCategories>
       </div>
       <Footer></Footer>
       </div>
