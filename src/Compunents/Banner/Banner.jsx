@@ -158,6 +158,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
+       {/* End Banner  */}
       <div  className="m-4 lg:px-14">
         <div  className="grid grid-cols-1 md:grid-cols-4 gap-10 justify-between">
           <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
@@ -169,6 +170,7 @@ const Banner = () => {
           <p>Get your order as little as 1hr</p>
             </div>
           </div>
+         
           <div className="bg-[#F7F8F8] flex flex-row justify-center items-center gap-4 px-2 py-3">
             <div className="">
               <a href=""><i className="fa-regular fa-circle-check text-yellow-300"></i></a>

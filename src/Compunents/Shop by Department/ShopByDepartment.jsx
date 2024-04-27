@@ -53,7 +53,7 @@ const ShopByDepartment = () => {
   ];
 
   return (
-    <div className="lg:px-14">
+    <div className="mx-auto">
       <h1 className="text-[24px] font-bold mt-12 mb-6">Shop by Department</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {ShopByDepartmentCard.map((data) => (

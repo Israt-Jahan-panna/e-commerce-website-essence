@@ -3,7 +3,7 @@ import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import ShopByDepartment from "../Shop by Department/ShopByDepartment"
-
+import DealOfTheDay from '../Deal of The Day/DealOfTheDay';
 const Home = () => {
     
   
@@ -12,7 +12,10 @@ const Home = () => {
        <NavBar></NavBar>
        <Events></Events>
       <Banner></Banner>
+      <div className="lg:px-14">
       <ShopByDepartment></ShopByDepartment>
+      <DealOfTheDay></DealOfTheDay>
+      </div>
       <Footer></Footer>
       </div>
     );
