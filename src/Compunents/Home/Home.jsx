@@ -8,6 +8,8 @@ import OnSellingProducts from "../On Selling Products/OnSellingProducts";
 import OnSellingProductsAds from "../On Selling Products/OnSellingProductsAds";
 import Apple from '../Apple/Apple';
 import ShopAllCategories from "../Shop All Categories/ShopAllCategories"
+import MostViewedItems from '../Most Viewed Items/MostViewedItems';
+import TopBrands from '../Top Brands/TopBrands';
 const Home = () => {
     
   
@@ -23,6 +25,8 @@ const Home = () => {
       <OnSellingProductsAds></OnSellingProductsAds>
       <Apple></Apple>
     <ShopAllCategories></ShopAllCategories>
+    <MostViewedItems></MostViewedItems>
+    <TopBrands></TopBrands>
       </div>
       <Footer></Footer>
       </div>
